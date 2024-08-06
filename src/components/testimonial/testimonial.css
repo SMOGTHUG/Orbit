@@ -1,0 +1,38 @@
+.test-container {
+    display: flex;
+    justify-content: center;
+}
+.testimony {
+    padding-block: 3rem;
+}
+
+.test-items1 > img {
+  width: 18rem;
+    
+
+
+
+}
+
+.test {
+    padding-left: 5rem;
+}
+
+.test > button {
+    background-color: #E6EBF2;
+    color: #00327E;
+
+    border: none;
+    /* background-size: contain; */
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+
+}
+
+.test > h1 {
+    color: #4F4F4F;
+    ;
+    
+}

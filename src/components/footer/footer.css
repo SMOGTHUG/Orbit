@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block: 1rem;
+    margin-inline: -8rem;
+    background-color: #E6EBF2;
+    color: #545454;
+    padding-block: 6rem;
+    /* border: 1px solid red; */
+}
+
+.footer-card {
+    margin-top: -7rem;
+
+}
+
+.footer-card > p {
+    margin-top: 0.5rem;
+    font-size: smaller;
+
+}
+
+.footer-card1 {
+  margin-top: -4rem;
+  
+}
+
+.footer-card1 > p {
+   
+    font-size: smaller;
+
+}
+
+.footer-card2 {
+    margin-top: -6rem;
+    
+  }
+
+  .footer-card2 > p {
+    font-size: smaller;
+    
+  }
+
+  .footer-card3 {
+    margin-top: -10rem;
+    font-size: smaller;
+    
+  }
+
+
+

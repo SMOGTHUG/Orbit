@@ -1,0 +1,35 @@
+.frame {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.fame {
+    /* border: 1px solid red;  */
+    padding-left: 8rem;
+    text-align: left;
+    width: 50rem;
+}
+.fame > h1 {
+    color: #3C3C3C;
+    
+}
+
+.fame > h5 {
+    color: #333333;
+
+}
+
+.fame > p {
+    color: #545454;
+    font-size: small;
+
+}
+.fame > p, h5, h1 {
+    /* padding-left: 5rem; */
+    /* gap: 2rem; */
+}
+
+.fames {
+    /* padding-left: 3rem; */
+}

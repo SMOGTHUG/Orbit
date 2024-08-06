@@ -1,0 +1,30 @@
+.blog {
+    background-color: #FDFDFD;
+    padding-block: 3rem;
+
+}
+
+.blog-title {
+    display: flex;
+    /* border: 1px solid red; */
+    color: #4F4F4F;
+    padding-left: 5rem;
+    
+}
+
+.blog-title > h1 {
+        /* border-right: |; */
+}
+
+.blog-title > h3 {
+    padding-top: 1rem;
+    color: #8A8A8A;
+    border-left: 2px;
+    margin-left: 1rem;
+    
+}
+
+.blog-items {
+    display: flex;
+    padding-inline: 3rem;
+}
