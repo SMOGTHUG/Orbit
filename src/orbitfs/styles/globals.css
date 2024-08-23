@@ -95,6 +95,7 @@ body {
 .nav-item {
   display: flex;
   align-items: center;
+  
 }
 
 .nav-link {

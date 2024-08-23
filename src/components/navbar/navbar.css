@@ -9,11 +9,11 @@
     /* border: 1px solid blue; */
   
   }
-  
+/*   
   .navbar >   .nav-logo {
-    border-bottom: 5rem;
+    /* border-bottom: 5rem; */
     /* padding: 1rem; */
-  }
+  /* }  */
 
   .nav-logo > img {
     width: 100%;
@@ -30,7 +30,7 @@
     justify-content: center;
     opacity: 0.9;
     font-size: 16px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
   }
 
   .nav-items > a {
@@ -94,9 +94,9 @@
   /* padding-inline: 1rem; */
  }
 
- button {
+ /* button {
   /* background-color: red; */
- }
+ /* }  */
  
 
  .btn-1 {

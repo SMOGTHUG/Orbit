@@ -3,7 +3,7 @@
  */
 import React from "react";
 import Logo from "./Logo";
-import Navigation from "./Navigation";
+import Navigation from "./navigation/Navigation";
 import Button from "./Button";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
           <div className="links-actions">
             <Navigation />
             <div className="actions">
-              <Button variant="primary" label="Sign up" />
+              {/* <Button variant="primary" label="Sign up" /> */}
             </div>
           </div>
         </div>

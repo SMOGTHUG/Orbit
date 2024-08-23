@@ -3,15 +3,16 @@
  */
 import React from "react";
 import Header from "./Header";
-import Hero from "./Hero";
+
 import Certifications from "./Certifications";
 import ValueProposition from "./ValueProposition";
-import Services from "./Services";
-import OurServices from "./OurServices";
-import Testimonials from "./Testimonials";
+import Services from "./service/Services";
+import OurServices from "./ourservice/OurServices";
+import Testimonials from "./testimonial/Testimonials";
 import BlogSection from "./BlogSection";
 import Footer from "./Footer";
 import './styles.css'
+import Hero from "./hero/Hero";
 
 const HomePage = () => {
   return (
