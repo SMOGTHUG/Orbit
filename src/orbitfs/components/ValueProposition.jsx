@@ -9,12 +9,12 @@ const ValueProposition = () => {
       <div className="value-content">
         <div className="value-header">
           <h2 className="value-title">Value Proposition</h2>
-          <img
+          {/*<img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/cdfaba69818ad9011bf22d551454b655b993f61cb0b710a8490d63396cac6c5e?apiKey=0dc91187d1fc4cb3931d3d7b27a4a892&"
             alt="Decorative element"
             className="value-decoration"
-          />
+          />*/}
         </div>
         <div className="value-description">
           <h3 className="value-subtitle">Help First, Sell Second!</h3>
@@ -25,12 +25,12 @@ const ValueProposition = () => {
           </p>
         </div>
       </div>
-      <img
+      {/*<img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9f29fe1092fdbca16153618fbc32426e57f51389288822df996afe64cc6b894?apiKey=0dc91187d1fc4cb3931d3d7b27a4a892&"
         alt="Decorative element"
         className="value-image"
-      />
+      />*/}
     </section>
   );
 };

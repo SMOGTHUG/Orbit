@@ -9,8 +9,8 @@ import Button from "./Button";
 const Header = () => {
   return (
     <header className="header">
-      <div className="container">
-        <div className="content">
+      <div className="header-container">
+        <div className="header-content">
           <Logo />
           <div className="links-actions">
             <Navigation />
