@@ -21,7 +21,7 @@ const HomePage = () => {
       <main>
         <Hero />
         <Certifications />
-        <ValueProposition />
+        {/*<ValueProposition />*/}
         <Services />
         <OurServices />
         <Testimonials />
