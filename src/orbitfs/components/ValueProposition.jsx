@@ -20,7 +20,7 @@ const ValueProposition = () => {
           <h3 className="value-subtitle">Help First, Sell Second!</h3>
           <p className="value-text">
             Orbit Financial Services Limited (OFSL) differentiates itself by
-            offering unique value and meeting specific customer needs with a
+            offering unique value <br/>and meeting specific customer needs with a
             customer-centric approach
           </p>
         </div>
