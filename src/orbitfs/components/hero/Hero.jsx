@@ -3,47 +3,47 @@
  */
 import React from "react";
 import Button from "../Button";
-import './hero.css'
-import heroBg from '../../../images/heroBg.png';
+import "./hero.css";
+import heroBg from "../../../images/heroBg.png";
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        { <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/453a60ef790317749eb6073739623b59090bc7d42af5ba0b8bad4d8b467f7432?apiKey=0dc91187d1fc4cb3931d3d7b27a4a892&"
-          alt="Decorative element"
-          className="hero-decoration"
-        /> }
+        {
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/453a60ef790317749eb6073739623b59090bc7d42af5ba0b8bad4d8b467f7432?apiKey=0dc91187d1fc4cb3931d3d7b27a4a892&"
+            alt="Decorative element"
+            className="hero-decoration"
+          />
+        }
         <div className="hero-text">
           <div>
             <h1 className="hero-title">
-            Empowering Nigeria's Small{" "}
+              Empowering Nigeria's Small{" "}
               <span className="highlight">Businesses</span>
             </h1>
             <p className="hero-subtitle">
-            Driving Success for Nigeria's Entrepreneurs
+              Driving Success for Nigeria's Entrepreneurs
             </p>
             <div className="hero-cta">
-            <Button variant="primary-1" label="Learn More" />
-            <Button variant="secondary-1" label="Apply for a loan" />
+              <Button variant="primary-1" label="Learn More" />
+              <Button variant="secondary-1" label="Apply for a loan" />
             </div>
-            </div>
-           </div>
+          </div>
+        </div>
         {/* */}
-      </div>   
-        
-       
-        <div className="hero-images">
+      </div>
+
+      <div className="hero-images">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e04c3748dc8472f9dad087b34063a845ea9482dde0fad24c3815947166d7251c?apiKey=0dc91187d1fc4cb3931d3d7b27a4a892&"
           alt="Hero background"
           className="hero-image2"
         />
-        </div>
-      
+      </div>
     </section>
   );
 };
