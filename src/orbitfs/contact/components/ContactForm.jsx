@@ -60,13 +60,13 @@ function ContactForm() {
         .contact-form {
           display: flex;
           flex-direction: column;
-          gap: 31px;
-          width: 100%;
+          gap: 1rem;
+          width: 50%;
         }
         .form-group {
           display: flex;
           flex-direction: column;
-          gap: 4px;
+          gap: 1rem;
         }
         .form-label {
           color: rgba(255, 255, 255, 1);
@@ -81,11 +81,11 @@ function ContactForm() {
             --Orbit-Color-Style-Slate---Neutral-slate---neutral-500,
             #475569
           );
-          padding: 12px;
+          padding: 0.2rem;
           font-family: Inter, sans-serif;
         }
         .form-input {
-          height: 60px;
+          height: 2rem;
         }
         .form-textarea {
           height: 153px;

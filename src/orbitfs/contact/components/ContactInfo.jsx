@@ -46,9 +46,10 @@ function ContactInfo() {
             --orbit-color-style-orbit-pry-blue-orbit-pry-blue-500-main,
             #00327e
           );
-          padding: 26px 70px;
+          
           display: flex;
           justify-content: center;
+          margin-top: 8rem;
         }
         @media (max-width: 991px) {
           .contact-info {

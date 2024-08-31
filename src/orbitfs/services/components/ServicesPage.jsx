@@ -10,6 +10,8 @@ import DigitalExperience from "./DigitalExperience";
 import Footer from "./Footer";
 import '../styles/globals.css'
 import Header from "../../components/Header";
+import InvoiceCard from "./InvoiceCard";
+import SustainabilityCard from "./SustainabilityCard";
 
 const ServicesPage = () => {
   const services = [
@@ -112,14 +114,22 @@ const ServicesPage = () => {
       <main>
         <ServiceIntro />
         <section className="services-section">
-          {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
-          ))}
+          
+            <ServiceCard />
+            
         </section>
-        <section className="investments-section">
-          {investments.map((investment, index) => (
-            <InvestmentCard key={index} {...investment} />
-          ))}
+
+        <section className="services-section">
+        <InvestmentCard />
+        
+        </section>
+
+        <section className="services-section">
+        <InvoiceCard />
+        </section>
+
+        <section className="services-section">
+          <SustainabilityCard />
         </section>
         <TechnologySection />
         <DigitalExperience />

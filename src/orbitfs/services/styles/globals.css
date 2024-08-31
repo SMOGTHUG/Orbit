@@ -164,13 +164,16 @@ body {
 .service-name {
   font-size: 24px;
   font-weight: 500;
-  margin-top: 16px;
+  margin-top: 10px;
+  color: #666666;
 }
 
-.section-title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 16px;
+.section-title1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -1.5rem;
+  color: #666666;
+
 }
 
 .section-content,
@@ -178,7 +181,7 @@ body {
 .application-steps {
   font-size: 18px;
   color: #666;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .cta-link {
@@ -495,6 +498,9 @@ body {
   .investments-section,
   .technology-section,
   .digital-experience,
+  .digital-container,
+  .tech-container,
+
   .footer {
     padding-left: 20px;
     padding-right: 20px;
@@ -529,3 +535,105 @@ body {
     gap: 20px;
   }
 }
+
+.service-section {
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #666666;
+}
+
+.service-btn {
+  border: 1px solid #00327E;
+  border-radius: 10px;
+  padding: 1rem;
+  color:  #0F172A;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.service-title {
+  color: #666666;
+  font-size: 24px;
+  font-size: 500;
+}
+
+
+.tech-container {
+  background-image: url(../../../images/grp1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-inline: 3rem;
+  padding-block: 5rem;
+}
+
+
+.tech-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tech2 {
+  margin-top: 1.5rem;
+}
+
+.digital-container {
+  background-image: url(../../../images/grp2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #475569;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 3rem;
+  padding-block: 5rem;
+  margin-top: -4rem;
+}
+
+.digital-section {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.digital-title {
+  margin-left: 7rem;
+  margin-top: 3rem;
+ }
+ .dig {
+  margin-top: -6rem;
+ }
+ 
+.dig > ol > li {
+ margin-left: 0.8rem;
+ margin-bottom: -0.5rem;
+ margin-top: -1rem;
+ color: #00327E;
+
+}
+
+.dig > ol > li > h4 {
+  margin-bottom: -1rem;
+  color: #334155;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dig > ol > li >  p {
+  color: #334155;
+  margin-bottom: -7rem;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.dig > ol > li {
+  margin-bottom: -7rem;
+}
+.dig > ol > img {
+  margin-top: 4rem;
+}
+
